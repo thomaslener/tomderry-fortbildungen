@@ -34,5 +34,19 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: '@builder.io/gatsby',
+      options: {
+        // public API Key
+        publicAPIKey: '5ced0918c4f7472cb3ea30cbec5763da',
+        // OPTIONAL
+        // Set this to `true` to rely on our cached content. Default value is `false`, always fetching the newest content from Builder.
+        useCache: false,
+
+        },
+
+        },
+
+
   ],
 }
